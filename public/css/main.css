@@ -1,0 +1,302 @@
+body {
+    padding-top: 20px; 
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.item-feature {
+    margin-bottom: 30px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.thumbnail div h3 {
+	height: 50px;
+	overflow: hidden;
+}
+
+.thumbnail div p {
+	height: 40px;
+	overflow: hidden;
+}
+
+.hero-spacer {
+	background-image: url('/images/dailydeal1.jpg');
+	background-position: 60% 30%;
+	color: #000;
+}
+
+.content {
+	min-height: 400px;
+}
+
+/* 404 */
+.not-found {
+	background-color: #f8f8f8;
+	text-align: center;
+	border: solid 1px #e7e7e7;
+}
+
+.not-found p {
+	font-size: x-large;
+}
+
+/*
+*	product list
+*/
+
+.product-list {
+	height: 400px;
+	overflow-y: scroll;
+}
+
+th.header { 
+    background-image: url(/images/other/bg.gif); 
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center right; 
+    padding-left: 20px; 
+    margin-left: -1px; 
+}
+
+#product-table td {
+	min-width: 125px;
+	max-width: 150px;
+	overflow: hidden;
+	vertical-align: middle;
+	border-bottom: solid 1px #000;
+}
+
+.btn-delete {
+	float: right;
+}
+
+.btn-edit {
+	display: table-cell;
+    vertical-align: middle;
+}
+/*
+*	products list/search
+*/
+
+#searchcontent {
+	min-height: 400px;
+}
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#order-by {
+	color: #000;
+	background-color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+        padding-right: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.product-list-control {
+	height: 80px;
+	background-color: #
+}
+
+.product-list-sidebar ul {
+	background-color: #fff;
+	border: solid 1px #ccc;
+	margin: 0;
+	line-height: 2;
+}
+
+.product-list-sidebar ul.selected { 
+	background-color: #ccc; 
+} 
+
+.product-list-content {
+
+}
+
+#page-control {
+	text-align: center;
+}
+
+.page-number {
+	color: blue;
+	width: 50px;
+}
+
+.page-number:hover {
+	cursor: pointer;
+}
+
+.form-group-list {
+	height: 160px;
+	overflow-y: scroll;
+	background-color: #ccc;
+}
+
+.form-group-list label {
+	width: 60px;
+	padding-left: 2px;
+}
+
+.option-select {
+	padding-left: 0px;
+}
+
+/*
+*	product details
+*/
+.detail-container {
+
+}
+
+.detail-image {
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	border: solid 1px #000;
+	overflow: hidden;
+	position: relative;
+}
+
+.detail-image img {
+	max-width: 300px;
+	max-height: 400px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#color-select {
+	width: 200px;
+	height: auto;
+	margin: 0;
+}
+
+#color-select span {
+	min-width: 50px;
+	max-width: 50px;
+	display: inline-block;
+	border: none;
+}
+
+#color-select span:active {
+	border: solid 1px #ccc;
+}
+
+.colorpick-active {
+	border: dotted 2px #000;
+}
+
+/*
+*	shoppingcart
+*/
+
+#shoppingcart-menu li {
+	width: 400px;
+}
+
+#shoppingcart-menu {
+	padding: 4px;
+	border-radius: 14px;
+}
+
+.cart-items {
+	border-bottom: solid 1px #000;
+}
+
+.cart-items span {
+	padding: 1px;
+	width: 70px;
+	display: inline-block;
+}
+
+.cart-item span {
+	padding: 1px;
+	width: 70px;
+	display: inline-block;
+}
+
+#shoppingcart-counter {
+	position: absolute;
+	top: 15px;
+	right: -5px;
+	display: block;
+	width: 22px;
+	height: 22px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 21px;
+	letter-spacing: -1px;
+	color: #5b4bf2;
+	border: none;
+	border-radius: 22px;
+	cursor: pointer;
+}
+
+/*
+* checkout
+*/
+#payment-details {
+	text-align: center;
+}
+
+#payment-items {
+	background-color: #f8f8f8;
+	text-align: center;
+	border: solid 1px #e7e7e7;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#payment-items span {
+	width: 100px;
+	display: inline-block;
+}
+
+#payment-form {
+	text-align: center;
+}
+
+/* profile */
+
+.order {
+	background-color: #f8f8f8;
+	text-align: center;
+	border: solid 1px #e7e7e7;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.order span {
+	width: 100px;
+	display: inline-block;
+}
